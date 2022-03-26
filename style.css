@@ -1,13 +1,15 @@
 #nav-bar{
     overflow:hidden;
-    background-color:#09689E; 
+    background-color:#71b8e4; 
     margin-bottom:50px;
     width:100%; 
     color:white; 
     position:fixed;
     top:0px;
-    
-    
+  }
+  body{
+    text-align: center;
+    background-color: rgb(241, 233, 233);
   }
 nav {
   margin-right: 10%;
@@ -15,7 +17,7 @@ nav {
   nav a{
     float: right;
     text-decoration:none;
-    color:white;
+    color:black;
     font-size:18px; 
     padding: 20px 30px; 
     display:inline-block; 
@@ -39,4 +41,69 @@ nav {
       background-color:#002e5b ;
       color:wheat; 
   }
- 
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px;
+    
+    
+  }
+
+  .card {
+    width: 280px;
+    height: 280px;
+    background-color: white;
+    margin: 5px;  
+    text-align: center;
+    border: 8px solid;
+
+  }
+
+  .card a{
+    
+    background-color: orange;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: -15px 50px;
+  }
+.card a:hover{
+  background-color: darkorange;
+}
+  
+  h3 {
+    background-color: yellow;
+    
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: 60px;
+  }
+
+  h2 {
+    margin: 0px;
+  }
+
+
+ #features {
+    text-align: center;
+ }
+ #actual-content {
+   display: inline-block;
+   text-align: left;
+ }
+ @media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 650px) {
+  #header-img {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+}
